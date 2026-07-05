@@ -212,14 +212,19 @@ $selection-bg: #26351c !default;
   pointer-events: auto;
 }
 
+// Larger logo
+.reveal .slide-logo {
+  max-height: 4rem !important;
+}
+
 // Logo to the bottom-left
 .slide-logo {
   display: block !important;
   position: fixed !important;
   bottom: 0 !important;
   left: 10px !important;
-  max-width: 150px; // Adjust if necessary
-  max-height: 50px;
+  max-width: 300px; // Adjust if necessary
+  max-height: 100px;
   width: auto !important;
   color: $body-color !important;
 }
