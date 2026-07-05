@@ -317,6 +317,11 @@ $selection-bg: #26351c !default;
   font-family: $presentation-heading-font !important;
 }
 
+/* Size adjustments for PDF export */
+.reveal-print .slide-logo{
+  max-height: 2rem !important;
+}
+
 /* Underline links */
 .reveal .slides a {
   text-decoration: underline !important;
