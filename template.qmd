@@ -1,14 +1,23 @@
 ---
 title: TODO TITLE
 subtitle: TODO SUBTITLE
-format: clean-revealjs
+format:
+  clean-revealjs:
+    code-block-height: 650px
 author:
   - name: Cindy Xiao
     email: contact@decoderloop.com
     affiliations: Decoder Loop
 logo: images/decoderloop-logo-light.png
 date: last-modified
+slide-level: 4
+footer: TODO TITLE | TODO EVENT | © Decoder Loop Technologies 2026
+title-slide-attributes:
+  data-background-image: "images/freshwater-bay-1600.jpg"
+  data-background-size: 50%
+  data-background-position: right 5% bottom 50%
 ---
+
 
 ## Example slide
 
