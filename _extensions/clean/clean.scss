@@ -326,6 +326,21 @@ $selection-bg: #26351c !default;
   text-decoration-skip-ink: auto;
 }
 
+/* Footer elements for dark background slides */
+.has-dark-background {
+  .footer {
+    color: #c1c1c1 !important;
+  }
+
+  .slide-number {
+    color: #c1c1c1 !important;
+  }
+
+  img.slide-logo {
+    filter: invert(1);
+  }
+}
+
 // Special catch for etable environment to ensure these table images
 // don't overflow the slide.
 // See: https://lrberge.github.io/fixest/articles/etable_new_features.html
